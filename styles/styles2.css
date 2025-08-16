@@ -1516,15 +1516,14 @@ body {
     gap: var(--space-16);
   }
 
-  .service-reverse {
+ /* .service-reverse {
     direction: rtl;
-  }
+  }*/
 
   .service-reverse>* {
     direction: ltr;
   }
 }
-
 /* ===== SERVICE IMAGE ===== */
 .service-image {
   position: relative;
@@ -3584,5 +3583,6 @@ body {
   }
 
 }
+
 
 
