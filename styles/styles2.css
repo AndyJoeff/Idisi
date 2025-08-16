@@ -1507,16 +1507,15 @@ body {
   position: relative;
 }
 
-.services-grid .service-item:nth-child(2) {
-  direction: ltr;
-}
-
 @media (min-width: 1024px) {
   .service-item {
     grid-template-columns: 1fr 1fr;
     gap: var(--space-16);
   }
 
+ .service-reverse .service-content {
+    grid-row: 2;
+}
   .service-reverse {
     direction: rtl;
   }
@@ -3583,4 +3582,5 @@ body {
   .profile-card {
     padding: var(--space-3);
   }
+
 }
