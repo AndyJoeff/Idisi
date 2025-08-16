@@ -804,6 +804,9 @@ body {
     justify-content: center;
     margin-top: var(--space-16);
   }
+   .service-reverse .service-content {
+    grid-row: 2;
+}
 }
 
 .image-container {
@@ -3581,4 +3584,5 @@ body {
   }
 
 }
+
 
