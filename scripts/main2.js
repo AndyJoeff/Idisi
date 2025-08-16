@@ -1258,22 +1258,6 @@ class CaseStudiesPerformance {
     }
 }
 
-// ===== INITIALIZATION =====
-document.addEventListener('DOMContentLoaded', () => {
-    new Navigation();
-    new EnhancedHero();
-    new AboutSection();
-    new FloatingStats();
-    new CaseStudies();
-    new CaseMetricsAnimation();
-    new CaseStudiesScrolling();
-    new CaseStudiesFilter(); // Optional if you add filter buttons
-    new CaseStudiesPerformance();
-    new PerformanceOptimizer();
-
-    console.log('✅ Case Studies Section Loaded');
-});
-
 // ===== UTILITY: Enhanced scroll performance =====
 Utils.throttle = function (func, limit) {
     let inThrottle;
@@ -1624,4 +1608,5 @@ Utils.copyToClipboard = function (text) {
     navigator.clipboard.writeText(text).then(() => {
         console.log('Copied to clipboard:', text);
     });
+
 };
